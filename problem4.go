@@ -8,8 +8,7 @@ import (
 func Reverse(N int) (result int) {
 	length := int(math.Log10(float64(N)))
 
-	for length >= 0 {
-		length -= 1
+	for i := 0; i <= length; i += 1 {
 		n := N % 10
 		result = result*10 + n
 		N /= 10
