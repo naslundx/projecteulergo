@@ -26,6 +26,9 @@ func main() {
 		4:  Problem4,
 		6:  Problem6,
 		7:  Problem7,
+		8:  Problem8,
+		9:  Problem9,
+		13: Problem13,
 		14: Problem14,
 	}
 
