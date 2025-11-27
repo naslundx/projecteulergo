@@ -30,6 +30,7 @@ func main() {
 		9:  Problem9,
 		13: Problem13,
 		14: Problem14,
+		25: Problem25,
 	}
 
 	run, ok := problems[id]
